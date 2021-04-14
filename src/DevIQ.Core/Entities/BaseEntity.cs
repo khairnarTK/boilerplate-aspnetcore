@@ -3,11 +3,11 @@
     /// <summary>
     /// Represents the base class for entities
     /// </summary>
-    public abstract partial class BaseEntity
+    public abstract class BaseEntity
     {
         /// <summary>
         /// Gets or sets the entity identifier
         /// </summary>
-        public int Id { get; set; }
+        public virtual int Id { get; protected set; }
     }
 }

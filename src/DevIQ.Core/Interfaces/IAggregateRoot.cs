@@ -1,0 +1,1 @@
+﻿namespace DevIQ.Core.Interfaces { public interface IAggregateRoot { } }
